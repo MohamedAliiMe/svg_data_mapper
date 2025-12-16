@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sample SVG with placeholder text -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Title -->
+  <text x="200" y="60" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+    {title}
+  </text>
+  
+  <!-- Name -->
+  <text x="200" y="120" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">
+    Name: {name}
+  </text>
+  
+  <!-- Email -->
+  <text x="200" y="160" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">
+    Email: {email}
+  </text>
+  
+  <!-- Company -->
+  <text x="200" y="200" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">
+    Company: {company}
+  </text>
+  
+  <!-- Decorative circle -->
+  <circle cx="200" cy="250" r="20" fill="#4CAF50" opacity="0.5"/>
+</svg>
